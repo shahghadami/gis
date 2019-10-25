@@ -38,5 +38,5 @@ express()
       res.sendStatus(403);//send Forbidden  
     }
   })
-  .git('/',(req,res)=> res.send('Worked'))
+  .get('/',(req,res)=> res.send('Worked'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
