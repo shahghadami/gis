@@ -4,7 +4,7 @@ const express = require('express');
 var inside = require('point-in-polygon');
 
 const app = express();
-const PORT = 5000; //.env.PORT || 5000
+const PORT = 3000; 
 var Features =[];
 
 var data = fs.readFileSync('gisInit.json','utf-8');
